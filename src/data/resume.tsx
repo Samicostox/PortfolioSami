@@ -65,7 +65,7 @@ export const DATA = {
   work: [
     {
       company: "Barclays",
-      href: "https://barclays.com",
+     
       badges: [],
       location: "Knutsford, UK",
       title: "AI & ML Summer Intern",
@@ -119,7 +119,7 @@ export const DATA = {
       school: "University of Birmingham",
       href: "https://birmingham.ac.uk",
       degree: "BSc in Computer Science with AI",
-      logoUrl: "/university-of-birmingham.png",
+      logoUrl: "/birmingham.png",
       start: "September 2020",
       end: "June 2023",
       description: "First Class Honours (73/100)",
