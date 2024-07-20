@@ -133,126 +133,122 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
-      active: true,
-      description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "DynaUI",
+      href: "https://www.dynaui.design/",
+      dates: "May 2024 - Present",
       active: true,
       description:
         "Designed, developed and sold animated UI components for developers.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "Supabase",
+        "React.js",
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
-        "Magic UI",
+        
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
+          href: "https://www.dynaui.design/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "/portfolio-dynaui.mp4",
+    },
+    {
+      title: "Innovation Studios Platform",
+      href: "https://react-blog-puce-iota.vercel.app/services2",
+      dates: "setember 2023 - may 2024",
+      active: true,
+      description:
+        "I developed the website and internal tool of Innovation studios. The internal tool includes technical document generation feature for the technical team & Lead Generation for the sales team. Total Users 20k+",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "PostgreSQL",
+        "Django",
+        "TailwindCSS",
+        "Heroku",
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://react-blog-puce-iota.vercel.app/services2",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Samicostox/react_blog",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/portfolio-innovationstudios.mp4",
+    },
+    {
+      title: "OneCVaDay",
+      href: "https://c-vstore.vercel.app/",
+      dates: "April 2024 - June 2024",
+      active: true,
+      description:
+        "Developed an Open-Source online platform registering CVs from people in competitive companies. Total Users 1000+",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Stripe",
+        "Cloudflare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://c-vstore.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Samicostox/CVstore",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/portfolio-onecvaday.mp4",
+    },
+    {
+      title: "SafeQueen",
+      href: "https://www.safequeen.co.uk/",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "Developed an online platform that aims to improve women security in the UK..",
+      technologies: [
+        "React.js",
+        "Javascript",
+        "PostgreSQL",
+        "SpringBoot",
+        "TailwindCSS",
+        "Heroku",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.safequeen.co.uk/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/portfolio-safequeen.mp4",
     },
   ],
   hackathons: [
