@@ -65,7 +65,7 @@ export const DATA = {
   work: [
     {
       company: "Barclays",
-     
+      href: "https://barclays.com",
       badges: [],
       location: "Knutsford, UK",
       title: "AI & ML Summer Intern",
@@ -77,6 +77,8 @@ export const DATA = {
     },
     {
       company: "DynaUI",
+      href: "https://www.dynaui.design/",
+      badges: [],
       location: "London, UK",
       logoUrl: "/dynaui.png",
       title: "Founder & Lead Developer",
@@ -87,6 +89,8 @@ export const DATA = {
     },
     {
       company: "4D",
+      href: "https://us.4d.com/",
+      badges: [],
       location: "Le Pecq, France",
       logoUrl: "/4D.png",
       title: "Full-Stack Developer (Part-Time)",
@@ -97,6 +101,8 @@ export const DATA = {
     },
     {
       company: "Innovation Studios",
+      href: "https://react-blog-puce-iota.vercel.app/",
+      badges: [],
       location: "Birmingham, UK",
       logoUrl: "/islogo.png",
       title: "Co-Founder | CEO & CTO",
